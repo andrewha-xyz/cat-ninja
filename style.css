@@ -1,0 +1,15 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  background: #0f0d1a;
+  display: grid;
+  place-items: center;
+}
+
+#game {
+  max-width: 100vw;
+  max-height: 100vh;
+  border-radius: 12px;
+  touch-action: none;
+  cursor: crosshair;
+}
